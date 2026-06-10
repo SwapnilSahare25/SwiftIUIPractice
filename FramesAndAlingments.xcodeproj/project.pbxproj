@@ -20,6 +20,9 @@
 		551731252FBF1A320079413D /* ZStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551731242FBF1A320079413D /* ZStacks.swift */; };
 		551731272FBF1A4C0079413D /* CombinationVHZStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551731262FBF1A4C0079413D /* CombinationVHZStacks.swift */; };
 		551731292FBF1DF00079413D /* AddPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551731282FBF1DF00079413D /* AddPadding.swift */; };
+		558C6EBF2FD96D8E00754533 /* CreateCustomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C6EBE2FD96D8E00754533 /* CreateCustomData.swift */; };
+		558C6EC12FD9753200754533 /* ViewModelDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C6EC02FD9753200754533 /* ViewModelDataClass.swift */; };
+		558C6EC32FD989B800754533 /* EnvironmentObjectsUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C6EC22FD989B800754533 /* EnvironmentObjectsUse.swift */; };
 		558D7B292FCADFFA0057964E /* NavigationViewAndLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D7B282FCADFFA0057964E /* NavigationViewAndLink.swift */; };
 		558EAEAE2FD2D08D00708A41 /* UseTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558EAEAD2FD2D08D00708A41 /* UseTextfield.swift */; };
 		558EAEB02FD2D62000708A41 /* TextEditorUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558EAEAF2FD2D62000708A41 /* TextEditorUse.swift */; };
@@ -70,6 +73,9 @@
 		551731242FBF1A320079413D /* ZStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStacks.swift; sourceTree = "<group>"; };
 		551731262FBF1A4C0079413D /* CombinationVHZStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationVHZStacks.swift; sourceTree = "<group>"; };
 		551731282FBF1DF00079413D /* AddPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPadding.swift; sourceTree = "<group>"; };
+		558C6EBE2FD96D8E00754533 /* CreateCustomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCustomData.swift; sourceTree = "<group>"; };
+		558C6EC02FD9753200754533 /* ViewModelDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelDataClass.swift; sourceTree = "<group>"; };
+		558C6EC22FD989B800754533 /* EnvironmentObjectsUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectsUse.swift; sourceTree = "<group>"; };
 		558D7B282FCADFFA0057964E /* NavigationViewAndLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewAndLink.swift; sourceTree = "<group>"; };
 		558EAEAD2FD2D08D00708A41 /* UseTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseTextfield.swift; sourceTree = "<group>"; };
 		558EAEAF2FD2D62000708A41 /* TextEditorUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorUse.swift; sourceTree = "<group>"; };
@@ -179,6 +185,9 @@
 				55924FEF2FD44788003E2FA8 /* MarkUps&Documentation.swift */,
 				55924FF12FD44C76003E2FA8 /* OnAppear&OnDisappear.swift */,
 				55924FF32FD4518C003E2FA8 /* TapGesture.swift */,
+				558C6EBE2FD96D8E00754533 /* CreateCustomData.swift */,
+				558C6EC02FD9753200754533 /* ViewModelDataClass.swift */,
+				558C6EC22FD989B800754533 /* EnvironmentObjectsUse.swift */,
 				551731122FBF064D0079413D /* Assets.xcassets */,
 				551731142FBF064D0079413D /* Preview Content */,
 			);
@@ -264,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5592922F2FC7127700C4A65D /* StatePropertyWrapper.swift in Sources */,
+				558C6EC12FD9753200754533 /* ViewModelDataClass.swift in Sources */,
 				551731112FBF064A0079413D /* ContentView.swift in Sources */,
 				55924FEC2FD43D63003E2FA8 /* UseTabView.swift in Sources */,
 				55DD6F1B2FC05C4600FCE9F1 /* AddSpacer.swift in Sources */,
@@ -284,6 +294,7 @@
 				5517311D2FBF0E100079413D /* Background.swift in Sources */,
 				5517311F2FBF11FC0079413D /* OverLay.swift in Sources */,
 				55BDB8542FC1ACAC00554D8F /* ScrollViewSetUp.swift in Sources */,
+				558C6EBF2FD96D8E00754533 /* CreateCustomData.swift in Sources */,
 				55BDB8562FC1B0A200554D8F /* ImplementLazyVGrid.swift in Sources */,
 				55960C282FC9A24D0093BD0A /* AnimationCurvesORTiming.swift in Sources */,
 				551731232FBF19630079413D /* HStacks.swift in Sources */,
@@ -300,6 +311,7 @@
 				55CE150E2FCAFB73000450DC /* UseAlert.swift in Sources */,
 				55DD6F1D2FC05FFC00FCE9F1 /* InitsAndEnums.swift in Sources */,
 				559292292FC6FF4B00C4A65D /* ImplementLazyHGrid.swift in Sources */,
+				558C6EC32FD989B800754533 /* EnvironmentObjectsUse.swift in Sources */,
 				558EAEB82FD2E6FA00708A41 /* UseDatePicker.swift in Sources */,
 				558D7B292FCADFFA0057964E /* NavigationViewAndLink.swift in Sources */,
 				55960C262FC99B530093BD0A /* Animations.swift in Sources */,
