@@ -14,32 +14,32 @@ struct UseTabView: View {
 
     var body: some View {
 
-
-      TabView {
-        RoundedRectangle(cornerRadius: 25)
-        RoundedRectangle(cornerRadius: 25)
-        RoundedRectangle(cornerRadius: 25)
-        RoundedRectangle(cornerRadius: 25)
-      }
-      .frame(height: 300)
-      .tabViewStyle(.page)
-
-
-
-//      TabView(selection: $selectedTab) {
 //
-//        HomeView()
-//          .tag(0)
-//
-//
-//        BrowseView()
-//          .tag(1)
-//
-//        ProfileView()
-//          .tag(2)
-//
+//      TabView {
+//        RoundedRectangle(cornerRadius: 25)
+//        RoundedRectangle(cornerRadius: 25)
+//        RoundedRectangle(cornerRadius: 25)
+//        RoundedRectangle(cornerRadius: 25)
 //      }
-//      .tint(Color.red)
+//      .frame(height: 300)
+//      .tabViewStyle(.page)
+
+
+
+      TabView(selection: $selectedTab) {
+
+        HomeView()
+          .tag(0)
+
+
+        BrowseView()
+          .tag(1)
+
+        ProfileView()
+          .tag(2)
+
+      }
+      .tint(Color.red)
 
     }
 }

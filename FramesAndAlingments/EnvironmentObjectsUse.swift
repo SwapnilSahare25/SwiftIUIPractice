@@ -122,7 +122,7 @@ struct FinalView: View {
           ForEach(envirViewModel.dataArray, id: \.self) { item in
 
             Text(item)
-            
+
           }
 
         }
