@@ -53,6 +53,13 @@
 		55960C2A2FC9A7150093BD0A /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55960C292FC9A7150093BD0A /* Transition.swift */; };
 		55960C2C2FC9AC890093BD0A /* SheetAndFullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55960C2B2FC9AC890093BD0A /* SheetAndFullScreenCover.swift */; };
 		55960C2E2FC9B2370093BD0A /* PopOverSheetAnimationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55960C2D2FC9B2370093BD0A /* PopOverSheetAnimationTransition.swift */; };
+		559832972FDC0EFF00CE595B /* UseAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559832962FDC0EFF00CE595B /* UseAsyncImage.swift */; };
+		559832992FDC157C00CE595B /* BackgroundMaterialsUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559832982FDC157C00CE595B /* BackgroundMaterialsUse.swift */; };
+		5598329B2FDC183E00CE595B /* TextSelectionUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598329A2FDC183E00CE595B /* TextSelectionUse.swift */; };
+		5598329D2FDC190800CE595B /* ButtonCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598329C2FDC190800CE595B /* ButtonCustomization.swift */; };
+		5598329F2FDC1BF600CE595B /* SwipeActionInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598329E2FDC1BF600CE595B /* SwipeActionInList.swift */; };
+		559832A12FDC1F0000CE595B /* AddBadgeInTabview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559832A02FDC1F0000CE595B /* AddBadgeInTabview.swift */; };
+		559832A32FDC20FA00CE595B /* UseFocusState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559832A22FDC20FA00CE595B /* UseFocusState.swift */; };
 		55BDB8522FC1A8F700554D8F /* ForEachLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BDB8512FC1A8F700554D8F /* ForEachLoop.swift */; };
 		55BDB8542FC1ACAC00554D8F /* ScrollViewSetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BDB8532FC1ACAC00554D8F /* ScrollViewSetUp.swift */; };
 		55BDB8562FC1B0A200554D8F /* ImplementLazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BDB8552FC1B0A200554D8F /* ImplementLazyVGrid.swift */; };
@@ -110,6 +117,13 @@
 		55960C292FC9A7150093BD0A /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
 		55960C2B2FC9AC890093BD0A /* SheetAndFullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetAndFullScreenCover.swift; sourceTree = "<group>"; };
 		55960C2D2FC9B2370093BD0A /* PopOverSheetAnimationTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverSheetAnimationTransition.swift; sourceTree = "<group>"; };
+		559832962FDC0EFF00CE595B /* UseAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseAsyncImage.swift; sourceTree = "<group>"; };
+		559832982FDC157C00CE595B /* BackgroundMaterialsUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialsUse.swift; sourceTree = "<group>"; };
+		5598329A2FDC183E00CE595B /* TextSelectionUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionUse.swift; sourceTree = "<group>"; };
+		5598329C2FDC190800CE595B /* ButtonCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCustomization.swift; sourceTree = "<group>"; };
+		5598329E2FDC1BF600CE595B /* SwipeActionInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionInList.swift; sourceTree = "<group>"; };
+		559832A02FDC1F0000CE595B /* AddBadgeInTabview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBadgeInTabview.swift; sourceTree = "<group>"; };
+		559832A22FDC20FA00CE595B /* UseFocusState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseFocusState.swift; sourceTree = "<group>"; };
 		55BDB8512FC1A8F700554D8F /* ForEachLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoop.swift; sourceTree = "<group>"; };
 		55BDB8532FC1ACAC00554D8F /* ScrollViewSetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewSetUp.swift; sourceTree = "<group>"; };
 		55BDB8552FC1B0A200554D8F /* ImplementLazyVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementLazyVGrid.swift; sourceTree = "<group>"; };
@@ -197,6 +211,13 @@
 				558C6EC02FD9753200754533 /* ViewModelDataClass.swift */,
 				558C6EC22FD989B800754533 /* EnvironmentObjectsUse.swift */,
 				558FC1472FDAB29F00AEF205 /* AppStorageUse.swift */,
+				559832962FDC0EFF00CE595B /* UseAsyncImage.swift */,
+				559832982FDC157C00CE595B /* BackgroundMaterialsUse.swift */,
+				5598329A2FDC183E00CE595B /* TextSelectionUse.swift */,
+				5598329C2FDC190800CE595B /* ButtonCustomization.swift */,
+				5598329E2FDC1BF600CE595B /* SwipeActionInList.swift */,
+				559832A02FDC1F0000CE595B /* AddBadgeInTabview.swift */,
+				559832A22FDC20FA00CE595B /* UseFocusState.swift */,
 				558FC14B2FDABA9D00AEF205 /* UserOnboardingWithAppStorageAndTransitions */,
 				551731122FBF064D0079413D /* Assets.xcassets */,
 				551731142FBF064D0079413D /* Preview Content */,
@@ -300,12 +321,15 @@
 				55DD6F1B2FC05C4600FCE9F1 /* AddSpacer.swift in Sources */,
 				55924FE82FD43889003E2FA8 /* StepperUse.swift in Sources */,
 				558EAEAE2FD2D08D00708A41 /* UseTextfield.swift in Sources */,
+				559832992FDC157C00CE595B /* BackgroundMaterialsUse.swift in Sources */,
+				5598329D2FDC190800CE595B /* ButtonCustomization.swift in Sources */,
 				558FC14D2FDABAFD00AEF205 /* IntroView.swift in Sources */,
 				55960C242FC995500093BD0A /* BindingStatePropertyWrapper.swift in Sources */,
 				55960C222FC991510093BD0A /* ExtractSubviews.swift in Sources */,
 				559292312FC7178F00C4A65D /* ExtractedFunctions.swift in Sources */,
 				55924FF02FD44788003E2FA8 /* MarkUps&Documentation.swift in Sources */,
 				55960C2A2FC9A7150093BD0A /* Transition.swift in Sources */,
+				559832A32FDC20FA00CE595B /* UseFocusState.swift in Sources */,
 				55924FF42FD4518C003E2FA8 /* TapGesture.swift in Sources */,
 				55BDB8522FC1A8F700554D8F /* ForEachLoop.swift in Sources */,
 				55960C2C2FC9AC890093BD0A /* SheetAndFullScreenCover.swift in Sources */,
@@ -314,8 +338,10 @@
 				558FC1482FDAB29F00AEF205 /* AppStorageUse.swift in Sources */,
 				551731292FBF1DF00079413D /* AddPadding.swift in Sources */,
 				551731272FBF1A4C0079413D /* CombinationVHZStacks.swift in Sources */,
+				5598329B2FDC183E00CE595B /* TextSelectionUse.swift in Sources */,
 				5517311D2FBF0E100079413D /* Background.swift in Sources */,
 				5517311F2FBF11FC0079413D /* OverLay.swift in Sources */,
+				559832972FDC0EFF00CE595B /* UseAsyncImage.swift in Sources */,
 				55BDB8542FC1ACAC00554D8F /* ScrollViewSetUp.swift in Sources */,
 				558C6EBF2FD96D8E00754533 /* CreateCustomData.swift in Sources */,
 				55BDB8562FC1B0A200554D8F /* ImplementLazyVGrid.swift in Sources */,
@@ -329,8 +355,10 @@
 				55046AC72FD19A1B00B4A712 /* ReusableActionSheet.swift in Sources */,
 				551731252FBF1A320079413D /* ZStacks.swift in Sources */,
 				55960C2E2FC9B2370093BD0A /* PopOverSheetAnimationTransition.swift in Sources */,
+				559832A12FDC1F0000CE595B /* AddBadgeInTabview.swift in Sources */,
 				55924FEE2FD44363003E2FA8 /* DarkMode.swift in Sources */,
 				558EAEB42FD2DE5700708A41 /* UsePicker.swift in Sources */,
+				5598329F2FDC1BF600CE595B /* SwipeActionInList.swift in Sources */,
 				55CE150E2FCAFB73000450DC /* UseAlert.swift in Sources */,
 				55DD6F1D2FC05FFC00FCE9F1 /* InitsAndEnums.swift in Sources */,
 				559292292FC6FF4B00C4A65D /* ImplementLazyHGrid.swift in Sources */,
