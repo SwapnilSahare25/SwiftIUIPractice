@@ -34,6 +34,14 @@
 		558FC14D2FDABAFD00AEF205 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558FC14C2FDABAFD00AEF205 /* IntroView.swift */; };
 		558FC14F2FDABFAF00AEF205 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558FC14E2FDABFAF00AEF205 /* OnBoardingView.swift */; };
 		558FC1512FDABFC300AEF205 /* ProfileViewSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558FC1502FDABFC300AEF205 /* ProfileViewSecond.swift */; };
+		55916E772FDD57DA00A83A28 /* CustomizationOfKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55916E762FDD57DA00A83A28 /* CustomizationOfKeyboard.swift */; };
+		55916E792FDD5BFB00A83A28 /* NavigationStackUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55916E782FDD5BFB00A83A28 /* NavigationStackUse.swift */; };
+		55916E7D2FDD666300A83A28 /* ResizableSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55916E7C2FDD666300A83A28 /* ResizableSheet.swift */; };
+		55916E7F2FDD6A6E00A83A28 /* UseSafeAreaInsects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55916E7E2FDD6A6E00A83A28 /* UseSafeAreaInsects.swift */; };
+		55916E812FDD6CC200A83A28 /* UseGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55916E802FDD6CC200A83A28 /* UseGroup.swift */; };
+		55916E832FDD702400A83A28 /* UseMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55916E822FDD702400A83A28 /* UseMenu.swift */; };
+		55916E852FDD709700A83A28 /* USePopOverModifire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55916E842FDD709700A83A28 /* USePopOverModifire.swift */; };
+		55916E872FDD752900A83A28 /* UseAnyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55916E862FDD752900A83A28 /* UseAnyLayout.swift */; };
 		55924FE82FD43889003E2FA8 /* StepperUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924FE72FD43888003E2FA8 /* StepperUse.swift */; };
 		55924FEA2FD43B1E003E2FA8 /* UseSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924FE92FD43B1E003E2FA8 /* UseSlider.swift */; };
 		55924FEC2FD43D63003E2FA8 /* UseTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924FEB2FD43D63003E2FA8 /* UseTabView.swift */; };
@@ -98,6 +106,14 @@
 		558FC14C2FDABAFD00AEF205 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		558FC14E2FDABFAF00AEF205 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		558FC1502FDABFC300AEF205 /* ProfileViewSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewSecond.swift; sourceTree = "<group>"; };
+		55916E762FDD57DA00A83A28 /* CustomizationOfKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationOfKeyboard.swift; sourceTree = "<group>"; };
+		55916E782FDD5BFB00A83A28 /* NavigationStackUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackUse.swift; sourceTree = "<group>"; };
+		55916E7C2FDD666300A83A28 /* ResizableSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheet.swift; sourceTree = "<group>"; };
+		55916E7E2FDD6A6E00A83A28 /* UseSafeAreaInsects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseSafeAreaInsects.swift; sourceTree = "<group>"; };
+		55916E802FDD6CC200A83A28 /* UseGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseGroup.swift; sourceTree = "<group>"; };
+		55916E822FDD702400A83A28 /* UseMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseMenu.swift; sourceTree = "<group>"; };
+		55916E842FDD709700A83A28 /* USePopOverModifire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USePopOverModifire.swift; sourceTree = "<group>"; };
+		55916E862FDD752900A83A28 /* UseAnyLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseAnyLayout.swift; sourceTree = "<group>"; };
 		55924FE72FD43888003E2FA8 /* StepperUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperUse.swift; sourceTree = "<group>"; };
 		55924FE92FD43B1E003E2FA8 /* UseSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseSlider.swift; sourceTree = "<group>"; };
 		55924FEB2FD43D63003E2FA8 /* UseTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseTabView.swift; sourceTree = "<group>"; };
@@ -218,6 +234,14 @@
 				5598329E2FDC1BF600CE595B /* SwipeActionInList.swift */,
 				559832A02FDC1F0000CE595B /* AddBadgeInTabview.swift */,
 				559832A22FDC20FA00CE595B /* UseFocusState.swift */,
+				55916E762FDD57DA00A83A28 /* CustomizationOfKeyboard.swift */,
+				55916E782FDD5BFB00A83A28 /* NavigationStackUse.swift */,
+				55916E7C2FDD666300A83A28 /* ResizableSheet.swift */,
+				55916E7E2FDD6A6E00A83A28 /* UseSafeAreaInsects.swift */,
+				55916E802FDD6CC200A83A28 /* UseGroup.swift */,
+				55916E822FDD702400A83A28 /* UseMenu.swift */,
+				55916E842FDD709700A83A28 /* USePopOverModifire.swift */,
+				55916E862FDD752900A83A28 /* UseAnyLayout.swift */,
 				558FC14B2FDABA9D00AEF205 /* UserOnboardingWithAppStorageAndTransitions */,
 				551731122FBF064D0079413D /* Assets.xcassets */,
 				551731142FBF064D0079413D /* Preview Content */,
@@ -323,16 +347,20 @@
 				558EAEAE2FD2D08D00708A41 /* UseTextfield.swift in Sources */,
 				559832992FDC157C00CE595B /* BackgroundMaterialsUse.swift in Sources */,
 				5598329D2FDC190800CE595B /* ButtonCustomization.swift in Sources */,
+				55916E792FDD5BFB00A83A28 /* NavigationStackUse.swift in Sources */,
+				55916E852FDD709700A83A28 /* USePopOverModifire.swift in Sources */,
 				558FC14D2FDABAFD00AEF205 /* IntroView.swift in Sources */,
 				55960C242FC995500093BD0A /* BindingStatePropertyWrapper.swift in Sources */,
 				55960C222FC991510093BD0A /* ExtractSubviews.swift in Sources */,
 				559292312FC7178F00C4A65D /* ExtractedFunctions.swift in Sources */,
 				55924FF02FD44788003E2FA8 /* MarkUps&Documentation.swift in Sources */,
 				55960C2A2FC9A7150093BD0A /* Transition.swift in Sources */,
+				55916E812FDD6CC200A83A28 /* UseGroup.swift in Sources */,
 				559832A32FDC20FA00CE595B /* UseFocusState.swift in Sources */,
 				55924FF42FD4518C003E2FA8 /* TapGesture.swift in Sources */,
 				55BDB8522FC1A8F700554D8F /* ForEachLoop.swift in Sources */,
 				55960C2C2FC9AC890093BD0A /* SheetAndFullScreenCover.swift in Sources */,
+				55916E7D2FDD666300A83A28 /* ResizableSheet.swift in Sources */,
 				55046AC92FD19DE700B4A712 /* ContexMenu.swift in Sources */,
 				55924FEA2FD43B1E003E2FA8 /* UseSlider.swift in Sources */,
 				558FC1482FDAB29F00AEF205 /* AppStorageUse.swift in Sources */,
@@ -352,9 +380,13 @@
 				551731212FBF15E80079413D /* VStacks.swift in Sources */,
 				558EAEB62FD2E56C00708A41 /* UseColorPicker.swift in Sources */,
 				5592922B2FC7080700C4A65D /* UseIgnoreSafeArea.swift in Sources */,
+				55916E832FDD702400A83A28 /* UseMenu.swift in Sources */,
 				55046AC72FD19A1B00B4A712 /* ReusableActionSheet.swift in Sources */,
 				551731252FBF1A320079413D /* ZStacks.swift in Sources */,
+				55916E872FDD752900A83A28 /* UseAnyLayout.swift in Sources */,
+				55916E772FDD57DA00A83A28 /* CustomizationOfKeyboard.swift in Sources */,
 				55960C2E2FC9B2370093BD0A /* PopOverSheetAnimationTransition.swift in Sources */,
+				55916E7F2FDD6A6E00A83A28 /* UseSafeAreaInsects.swift in Sources */,
 				559832A12FDC1F0000CE595B /* AddBadgeInTabview.swift in Sources */,
 				55924FEE2FD44363003E2FA8 /* DarkMode.swift in Sources */,
 				558EAEB42FD2DE5700708A41 /* UsePicker.swift in Sources */,

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct NavigationViewAndLink: View {
 
+  @State var pathStack: [String] = []
 
     var body: some View {
 
@@ -60,7 +61,28 @@ struct NavigationViewAndLink: View {
               }
 
             }
+
+
           }
+         // .toolbar(.hidden, for: .navigationBar)
+          .toolbarColorScheme(.dark, for: .navigationBar)
+          .toolbarTitleMenu {
+
+              Button("1") {
+                pathStack.append("1")
+
+              }
+              Button("2") {
+                pathStack.append("2")
+
+              }
+
+
+          }
+          .navigationDestination(for: String.self) { value in
+            Text(value)
+          }
+
 
       }
 
