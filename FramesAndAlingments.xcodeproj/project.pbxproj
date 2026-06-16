@@ -23,6 +23,12 @@
 		558C6EBF2FD96D8E00754533 /* CreateCustomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C6EBE2FD96D8E00754533 /* CreateCustomData.swift */; };
 		558C6EC12FD9753200754533 /* ViewModelDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C6EC02FD9753200754533 /* ViewModelDataClass.swift */; };
 		558C6EC32FD989B800754533 /* EnvironmentObjectsUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558C6EC22FD989B800754533 /* EnvironmentObjectsUse.swift */; };
+		558D5F982FE156E4001309EF /* ViewThatFitsUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D5F972FE156E4001309EF /* ViewThatFitsUse.swift */; };
+		558D5F9A2FE158F2001309EF /* NavigationSplitViewUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D5F992FE158F2001309EF /* NavigationSplitViewUse.swift */; };
+		558D5F9C2FE16891001309EF /* UseGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D5F9B2FE16891001309EF /* UseGrid.swift */; };
+		558D5F9E2FE16C60001309EF /* ObservableMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D5F9D2FE16C60001309EF /* ObservableMacro.swift */; };
+		558D5FA02FE172EA001309EF /* UseContentUnavailableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D5F9F2FE172EA001309EF /* UseContentUnavailableView.swift */; };
+		558D5FA22FE17480001309EF /* ControlGroupUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D5FA12FE17480001309EF /* ControlGroupUse.swift */; };
 		558D7B292FCADFFA0057964E /* NavigationViewAndLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558D7B282FCADFFA0057964E /* NavigationViewAndLink.swift */; };
 		558EAEAE2FD2D08D00708A41 /* UseTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558EAEAD2FD2D08D00708A41 /* UseTextfield.swift */; };
 		558EAEB02FD2D62000708A41 /* TextEditorUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558EAEAF2FD2D62000708A41 /* TextEditorUse.swift */; };
@@ -95,6 +101,12 @@
 		558C6EBE2FD96D8E00754533 /* CreateCustomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCustomData.swift; sourceTree = "<group>"; };
 		558C6EC02FD9753200754533 /* ViewModelDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelDataClass.swift; sourceTree = "<group>"; };
 		558C6EC22FD989B800754533 /* EnvironmentObjectsUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectsUse.swift; sourceTree = "<group>"; };
+		558D5F972FE156E4001309EF /* ViewThatFitsUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsUse.swift; sourceTree = "<group>"; };
+		558D5F992FE158F2001309EF /* NavigationSplitViewUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewUse.swift; sourceTree = "<group>"; };
+		558D5F9B2FE16891001309EF /* UseGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseGrid.swift; sourceTree = "<group>"; };
+		558D5F9D2FE16C60001309EF /* ObservableMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableMacro.swift; sourceTree = "<group>"; };
+		558D5F9F2FE172EA001309EF /* UseContentUnavailableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseContentUnavailableView.swift; sourceTree = "<group>"; };
+		558D5FA12FE17480001309EF /* ControlGroupUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroupUse.swift; sourceTree = "<group>"; };
 		558D7B282FCADFFA0057964E /* NavigationViewAndLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewAndLink.swift; sourceTree = "<group>"; };
 		558EAEAD2FD2D08D00708A41 /* UseTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseTextfield.swift; sourceTree = "<group>"; };
 		558EAEAF2FD2D62000708A41 /* TextEditorUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorUse.swift; sourceTree = "<group>"; };
@@ -242,6 +254,12 @@
 				55916E822FDD702400A83A28 /* UseMenu.swift */,
 				55916E842FDD709700A83A28 /* USePopOverModifire.swift */,
 				55916E862FDD752900A83A28 /* UseAnyLayout.swift */,
+				558D5F972FE156E4001309EF /* ViewThatFitsUse.swift */,
+				558D5F992FE158F2001309EF /* NavigationSplitViewUse.swift */,
+				558D5F9B2FE16891001309EF /* UseGrid.swift */,
+				558D5F9D2FE16C60001309EF /* ObservableMacro.swift */,
+				558D5F9F2FE172EA001309EF /* UseContentUnavailableView.swift */,
+				558D5FA12FE17480001309EF /* ControlGroupUse.swift */,
 				558FC14B2FDABA9D00AEF205 /* UserOnboardingWithAppStorageAndTransitions */,
 				551731122FBF064D0079413D /* Assets.xcassets */,
 				551731142FBF064D0079413D /* Preview Content */,
@@ -340,7 +358,9 @@
 				5592922F2FC7127700C4A65D /* StatePropertyWrapper.swift in Sources */,
 				558C6EC12FD9753200754533 /* ViewModelDataClass.swift in Sources */,
 				551731112FBF064A0079413D /* ContentView.swift in Sources */,
+				558D5F9A2FE158F2001309EF /* NavigationSplitViewUse.swift in Sources */,
 				558FC14F2FDABFAF00AEF205 /* OnBoardingView.swift in Sources */,
+				558D5F982FE156E4001309EF /* ViewThatFitsUse.swift in Sources */,
 				55924FEC2FD43D63003E2FA8 /* UseTabView.swift in Sources */,
 				55DD6F1B2FC05C4600FCE9F1 /* AddSpacer.swift in Sources */,
 				55924FE82FD43889003E2FA8 /* StepperUse.swift in Sources */,
@@ -386,6 +406,8 @@
 				55916E872FDD752900A83A28 /* UseAnyLayout.swift in Sources */,
 				55916E772FDD57DA00A83A28 /* CustomizationOfKeyboard.swift in Sources */,
 				55960C2E2FC9B2370093BD0A /* PopOverSheetAnimationTransition.swift in Sources */,
+				558D5FA22FE17480001309EF /* ControlGroupUse.swift in Sources */,
+				558D5F9C2FE16891001309EF /* UseGrid.swift in Sources */,
 				55916E7F2FDD6A6E00A83A28 /* UseSafeAreaInsects.swift in Sources */,
 				559832A12FDC1F0000CE595B /* AddBadgeInTabview.swift in Sources */,
 				55924FEE2FD44363003E2FA8 /* DarkMode.swift in Sources */,
@@ -403,6 +425,8 @@
 				558EAEB22FD2D89B00708A41 /* ToggleUse.swift in Sources */,
 				5517310F2FBF064A0079413D /* FramesAndAlingmentsApp.swift in Sources */,
 				55CE150C2FCAEBC8000450DC /* HowToUseList.swift in Sources */,
+				558D5F9E2FE16C60001309EF /* ObservableMacro.swift in Sources */,
+				558D5FA02FE172EA001309EF /* UseContentUnavailableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
